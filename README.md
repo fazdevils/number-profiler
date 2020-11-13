@@ -57,7 +57,7 @@ I manually uploaded the lambda jar produced by this build to AWS and used the te
 The lambda configuration is a vanilla Java 8 lambda, with no special environment, network, or other settings.  The handler for the lambda is `com.blackwaterpragmatic.handler.NumberProfileHandler::handleRequest`.
 
 ## Notes
-- The build runs a default checkstyle configuration and jacoco to verify coding standards and test coverage.
+- The build runs a default checkstyle configuration and jacoco to verify adherence to coding standards and test coverage.
 
 ## TODO
 - If this were a production lambda, it might be good to provide scripts to automate the build and deployment of this solution.
