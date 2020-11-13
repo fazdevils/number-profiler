@@ -60,6 +60,6 @@ The lambda configuration is a vanilla Java 8 lambda, with no special environment
 - The build runs a default checkstyle configuration and jacoco to verify adherence to coding standards and test coverage.
 
 ## TODO
-- If this were a production lambda, it might be good to provide scripts to automate the build and deployment of this solution.
+- If this were a production lambda in a shared AWS environment, it would be good to provide scripts to automate the build and deployment of this solution.
 - I have not provided any integration tests for the solution.
-- There is no support for gitflow in the maven POM.  this would be needed to ease production deployment and migration of a "real" app.
+- There is no support for gitflow in the maven POM.  This would be needed to ease production deployment and migration of a "real" app.
